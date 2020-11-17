@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="home">
     <div class="body">
       <LinkList :linkData="linkListArray"/>
     </div>
@@ -10,7 +10,7 @@
 import LinkList from './LinkList/LinkList'
 
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   components:{
     LinkList
   },
@@ -39,7 +39,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .hello{
+  .home{
     width: 1200px;
     margin:  300px auto;
     .body{
