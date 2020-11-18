@@ -30,4 +30,8 @@ export default {
 </script>
 
 <style lang='scss'>
+  .link_list{
+    padding: 20px 40px;
+    border-radius: 6px;
+  }
 </style>

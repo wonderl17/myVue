@@ -27,12 +27,14 @@ export default {
 
 <style lang="scss">
 .link_item{
-  width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
+  &:last-child{
+    margin-bottom: 0;
+  }
   .link_name{
-    margin-right: 20px;
     font-size: 18px;
   }
   .link_value{

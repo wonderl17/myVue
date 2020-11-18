@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <div class="body">
+    <div class="content_a">
       <LinkList :linkData="linkListArray"/>
     </div>
   </div>
 </template>
 
 <script>
-import LinkList from './LinkList/LinkList'
+import LinkList from '../components/LinkList/LinkList'
 
 export default {
   name: 'Home',
   components:{
-    LinkList
+    LinkList,
   },
   data(){
     return{
@@ -28,6 +28,10 @@ export default {
          {
            name: 'Vue3.0中文',
            href: 'https://vue-docs-next-zh-cn.netlify.app/'
+         },
+         {
+           name: 'labuladong算法',
+           href: 'https://labuladong.gitbook.io/algo/'
          }
        ]
     }
@@ -40,11 +44,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .home{
-    width: 1200px;
-    margin:  300px auto;
-    .body{
-      margin: 0 auto;
-      width: 500px;
+    width: 1600px;
+    min-height: 70vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.664);
+
+    .content_a{
+      width: 700px;
+      background-color: #fff;
     }
   }
 </style>
