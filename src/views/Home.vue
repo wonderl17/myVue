@@ -32,6 +32,10 @@ export default {
          {
            name: 'labuladong算法',
            href: 'https://labuladong.gitbook.io/algo/'
+         },
+         {
+           name: '美团技术团队',
+           href: 'https://tech.meituan.com/'
          }
        ]
     }
@@ -45,13 +49,15 @@ export default {
 <style scoped lang="scss">
   .home{
     width: 1600px;
-    min-height: 70vh;
+    min-height: 900px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.664);
-
+    border-radius: 5px;
+    padding: 10px;
     .content_a{
       width: 700px;
-      background-color: #fff;
+      // background-color: #fff;
+      margin: 0 auto;
     }
   }
 </style>
